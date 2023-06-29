@@ -1,0 +1,363 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+}
+
+.hero_Section{
+    background-color: white;
+    
+}
+
+.hero{
+    max-width: 1300px;
+    margin: 3rem auto;
+    padding: 0 50px;
+
+}
+
+.hero_image img{
+
+    width: 100%;
+    
+}
+
+.hero_image{
+    
+}
+
+.hero1 h2{
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding-bottom: .8rem;
+}
+
+.hero2{
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+
+.hero2 p{
+font-size: .8rem;
+font-family: 'Montserrat', sans-serif;
+font-style: italic;
+font-weight: 500;
+width: 40%;
+margin-bottom: 2rem;
+}
+
+.hero2 img{
+    padding: 0 1rem 1rem 0;
+}
+
+
+
+/*ingredient section*/
+
+.food{
+    background-color: white;
+}
+
+.food_group{
+    max-width:1300px ;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    align-items: flex-start;
+   justify-content: space-between;
+}
+
+.food_group1{
+   
+    width: 50%;
+}
+
+
+.leftfood{
+   
+
+}
+
+.leftfood h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: .5rem;
+}
+.leftfood p{
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: 400;
+    padding: 1.5rem 0 2rem 0;
+}
+.list_group{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: .7rem;
+    padding-bottom: .5rem;
+}
+
+.list_shape{
+    border: 1px solid #828282;
+    padding: .6rem;
+    border-radius: 5px;
+}
+
+.sentence{
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    ;
+}
+
+.cust{
+    font-weight: 700;
+}
+
+.cheese{
+    padding: 1.7rem 0;
+
+}
+
+.right_group{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 1.2rem;
+
+    
+}
+.food_group2{
+    padding: 4rem 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 
+    5px 5px 5px rgba(226, 225, 225, 0.4), /* Top left corner */
+    -5px 5px 5px rgba(233, 231, 231, 0.4), /* Top right corner */
+    -5px -5px 5px rgba(234, 233, 233, 0.4), /* Bottom right corner */
+    5px -5px 5px rgba(231, 230, 230, 0.4); /* Bottom left corner */
+}
+
+.imageone img{
+    width: 34px;
+    height: 34px;
+
+}
+.user{
+    padding-left: 1.1rem;
+}
+
+.user h6{
+    font-size: 10px;
+    color: #BDBDBD;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+    
+    
+}
+
+.user p{
+    font-size: 14px;
+    
+}
+
+/*display instruction*/
+
+
+.third_section{
+    background-color: white;
+}
+
+.third_sec{
+max-width: 1300px;
+margin: 0 auto;
+padding: 0 50px;
+
+
+}
+.other{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.instruct_group{
+    display: flex;
+align-items: flex-start;
+padding-bottom: 2rem;
+}
+
+.instruct_head h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.instruct p{
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-left: 1rem;
+    line-height: 25px;
+    font-size: 1rem;
+}
+
+.number{
+    color: white;
+    background-color: #F2994A;
+    padding:  6px 10px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.week p{
+    color: #BDBDBD;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.house {
+
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.house p{
+    color: #828282;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:992px) {
+.hero2 p{
+    width: 100%;
+}
+.her0{
+    padding: 0 30px;
+}
+
+.hero1 h2{
+    font-size: 24px;
+}
+
+.food_group{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 30px;
+
+}
+
+.food_group1{
+    width: 100%;
+}
+
+.food_group2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+
+}
+
+#rose{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: self-start;
+    justify-content: left;
+    
+    
+}
+
+.right_group{
+    padding: 2rem;
+}
+
+.food_group2{
+    
+    padding: 0;
+    
+    
+    box-shadow: none
+    
+}
+
+.user p{
+    font-size: 10px;
+
+}
+.leftfood p{
+    padding-bottom: 1rem;
+}
+
+.leftfood h3{
+    padding: 1rem 0 0 0;
+}
+
+.imageone img{
+    width:17px;
+    height: 17px;
+}
+
+
+/*instruction*/
+.other{
+    width: 100%;
+}
+
+.third_sec{
+    padding: 0 30px;
+}
+
+
+}
+
+
+
+
+    
+@media screen and (max-width: 415px) {
+    .hero{
+        padding: 0 30px;
+    }
+.right_group{
+    padding: .5rem;
+}
+
+.sentence{
+    font-size: 15px;
+}
+
+.leftfood p{
+    font-size: 1rem;
+}
+
+.leftfood h3{
+    font-size: 18px;
+}
+.user p{
+    font-size: 9px;
+}
+
+.food_group{
+    padding: 0 30px;
+}
+
+.food_group2{
+    padding-bottom: 1rem;
+}
+
+.instruct p{
+    font-size: 15px;
+}
+
+}
+    
